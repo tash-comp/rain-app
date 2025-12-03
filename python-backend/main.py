@@ -24,3 +24,10 @@ def get_weather(latitude: float, longitude: float):
     print("Extracted Information:")
     print(results)
     return results
+
+
+# to-do: change the logic to gorup together certain co-ordinates
+# to reduce number of api calls and also only send the api calls 
+# to the front-end when there is a significant change in weather data
+# 
+# also connect to s3 bucket to store information about a user 
